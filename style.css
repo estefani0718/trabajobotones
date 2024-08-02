@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.caja{
+    margin: 0 auto;
+    border: 5px solid #fff;
+    background-color: #1369da;
+    border-radius: 5px ;
+    width: 40%;
+    
+}
+.boton{
+    font-size: 16px;
+    width: 120px;
+    text-align: center;
+    margin: 0 auto ;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;    
+    text-decoration: none;
+
+}
