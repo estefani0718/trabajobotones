@@ -1,15 +1,28 @@
+@import url(compo2.css);
+@import url(compo3.css);
+@import url(compo4.css);
+@import url(variables.css);
+
+
+
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: url(https://img.freepik.com/vector-gratis/plantilla-fondo-estampado-amante-gatos_53876-100661.jpg?size=626&ext=jpg&ga=GA1.1.933601817.1722470400&semt=ais_hybrid);
+}
 .caja{
     margin: 0 auto;
     border: 5px solid #fff;
     background-color: #1369da;
-    border-radius: 5px ;
-    width: 40%;
-    
+    border-radius: 12PX;
+    width: 19%;
+    height: 95px;
+    box-shadow: 5px 5px #000;
 }
 .boton{
     font-size: 16px;
@@ -21,4 +34,70 @@
     border-radius: 5px;    
     text-decoration: none;
 
+}
+.boton_texto{
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+
+
+}
+.boton__icono{
+    width: 10%;
+
+}
+.boton--verde{
+    color: var(--negro);
+    background-color: var(--verde);
+}
+.boton--naranja{
+    color: var(--negro);
+    background-color: var(--naranja);
+}
+.boton--rojo{
+    color: var(--negro);
+    background-color: var(--rojo);
+
+}
+.boton--marron{
+    color: var(--negro);
+    background-color: var(--marron);
+}
+.boton--verde:hover{
+    color: var(--naranja);
+    background-color: var(--negro);
+}
+.boton--naranja:active{
+    color: var(--blanco);
+    background-color: var(--morado);
+}
+.boton--rojo:hover{
+    color: var(--morado);
+    background-color: var(--blanco);
+
+}
+.boton--marron:active{
+    color: var(--rojo);
+    background-color: var(--verde);
+}
+.boton__icono{
+    width: 10px;
+    
+}
+.boton_texto{
+    font-family: 'Courier New', Courier, monospace;
+}
+.com1{
+    border-radius: 10px;
+    box-shadow: 5px 10px #000;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: var(--blanco);
+    text-align: center;
+    display: inline-flex;
+    color: var(--rojo);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWri7LuVeY41rC5rkr1HGD1EbPzq4AOrmVKw&s);
+    width: 10%;
+    display: inline-block;
+    margin-left: 20px;
 }

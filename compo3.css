@@ -1,0 +1,32 @@
+@import url(compo2.css);
+@import url(compo3.css);
+@import url(compo4.css);
+@import url(variables.css);
+@import url(style.css);
+
+
+*{
+    margin: auto;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://img.freepik.com/vector-premium/patrones-fisuras-kawaii-gatos-lindos-dibujos-animados-animales-fondo-ilustracion_107335-121.jpg);
+}
+.caja3{
+    background-color: var(--azul);
+}
+.com3{
+    border-radius: 10px;
+    box-shadow: 5px 10px #000;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: var(--blanco);
+    text-align: center;
+    display: inline-flex;
+    color: var(--rojo);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWri7LuVeY41rC5rkr1HGD1EbPzq4AOrmVKw&s);
+    width: 10%;
+    display: inline-block;
+    margin-left: 20px;
+}
