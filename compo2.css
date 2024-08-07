@@ -18,26 +18,28 @@ body{
     padding: 10px;
     background-color: var(--blanco);
     text-align: center;
-    display: inline-flex;
+    display: inline-block;
     color: var(--rojo);
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWri7LuVeY41rC5rkr1HGD1EbPzq4AOrmVKw&s);
     width: 10%;
-    display: inline-block;
-    margin-left: 20px;
+    margin-right: 20px;
+    
 }
 .caja1{
     margin: 0 auto ;
-    padding: 12px;
+    padding: 20px;
     text-align: center;
     background-color: var(--morado);
-    border-radius: 10px solid #fff;
+    border-radius: 10px ;
     width: 300px;
-    box-shadow: 8px 8px #fff;
+    box-shadow: 5px 5px  #000;
     display:inline-block;
-    margin-right: 50px;
-    margin-left: 50px;
-
+    margin-right: 20px;
+    margin-left: 15px;
+    margin-bottom: 12px;
+    margin-top: 20px;
 }
+
 .lista{
     color:var(--negro); 
 
@@ -51,10 +53,24 @@ body{
     text-align: center;
     margin: 0 auto;
 }
-.img1{
+.img{
     width: 100px;
     height: 100px;
     border-radius: 10px;
     display: block;
     margin: 0 auto ;
+}
+.t1{
+    text-decoration: none;
+}
+.close-button 
+{
+    position: absolute;
+     top: 10px;
+    right: 10px;
+    background-color: transparent;
+     border: none;
+    font-size: 24px;
+    color: #f44336; /* Rojo */
+    cursor: pointer;
 }

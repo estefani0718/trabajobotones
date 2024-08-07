@@ -23,10 +23,9 @@ body{
     padding: 10px;
     background-color: var(--blanco);
     text-align: center;
-    display: inline-flex;
+    display: inline-block;
     color: var(--rojo);
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWri7LuVeY41rC5rkr1HGD1EbPzq4AOrmVKw&s);
     width: 10%;
-    display: inline-block;
-    margin-left: 20px;
+    margin-right: 20px;
 }

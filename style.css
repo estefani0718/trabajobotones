@@ -4,9 +4,6 @@
 @import url(variables.css);
 
 
-
-
-
 *{
     margin: 0;
     padding: 0;
@@ -39,8 +36,6 @@ body{
     font-size: 12px;
     text-align: center;
     padding: 5px;
-
-
 }
 .boton__icono{
     width: 10%;
@@ -94,10 +89,22 @@ body{
     padding: 10px;
     background-color: var(--blanco);
     text-align: center;
-    display: inline-flex;
+    display: inline-block;
     color: var(--rojo);
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWri7LuVeY41rC5rkr1HGD1EbPzq4AOrmVKw&s);
     width: 10%;
-    display: inline-block;
-    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+}
+.close-button 
+{
+    position: absolute;
+     top: 10px;
+    right: 10px;
+    background-color: transparent;
+     border: none;
+    font-size: 24px;
+    color: #f44336; /* Rojo */
+    cursor: pointer;
 }

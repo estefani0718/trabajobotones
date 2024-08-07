@@ -1,0 +1,31 @@
+@import url(compo2.css);
+@import url(compo3.css);
+@import url(compo4.css);
+@import url(variables.css);
+@import url(style.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(https://img.freepik.com/vector-premium/gato-dibujos-animados-patrones-fisuras-fondo-pantalla-ninos_488586-262.jpg);
+}
+.com4
+{
+    border-radius: 10px;
+    box-shadow: 5px 10px #000;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: var(--blanco);
+    text-align: center;
+    display: inline-flex;
+    color: var(--rojo);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWri7LuVeY41rC5rkr1HGD1EbPzq4AOrmVKw&s);
+    width: 10%;
+    display: inline-block;
+    margin-right: 20px;
+}
