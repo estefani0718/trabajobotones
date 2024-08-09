@@ -39,19 +39,46 @@ body{
     margin-bottom: 12px;
     margin-top: 20px;
 }
+.t1{
+    text-decoration: none;
+    font-size: 50px;
+    background-color: var(--blanco);
+    border-radius: 50%;
+    margin: 0 auto ;
+    box-shadow: 3px 3px var(--rosado);
 
+}
+.t2{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: var(--marron);
+    height: 40px;
+    width: 20x;
+    border-radius: 15px 15px 15px 15px ;
+
+}
 .lista{
     color:var(--negro); 
+    font-size: medium;
+    font-family: Georgia,serif;
 
 
 }
 .lista__item{
     color: var(--negro);
-
 }
 .lista__texto{
     text-align: center;
     margin: 0 auto;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 5px;
+}
+.lista__icono{
+    background-color: var(--blanco);
+    font-size: 25px;
+    border-radius: 4px;
 }
 .img{
     width: 100px;
@@ -59,18 +86,54 @@ body{
     border-radius: 10px;
     display: block;
     margin: 0 auto ;
+   margin-top: 10px;
+   margin-bottom: 5px;
 }
-.t1{
-    text-decoration: none;
+.lista__t2{
+    margin-bottom: 5px;
+    margin-left: 5px;
+    font-size: 20px;
 }
-.close-button 
-{
-    position: absolute;
-     top: 10px;
-    right: 10px;
-    background-color: transparent;
-     border: none;
-    font-size: 24px;
-    color: #f44336; /* Rojo */
-    cursor: pointer;
+
+
+.boton{
+    margin: 0 auto ;
+    font-family: 'Courier New', Courier, monospace;
+   
+
+}
+.boton--neg{
+    color: var(--negro);
+    background-color: var(--morado);
+}
+.boton--neg:hover{
+    color: var(--rosado);
+    background-color: var(--negro);
+
+}
+.boton--ros{
+    color: var(--morado);
+    background-color: var(--negro);
+}
+.boton--ros:hover{
+    color: var(--negro);
+    background-color: var(--morado);
+}
+.boton--ver{
+    color: var(--blanco);
+    background-color: var(--marron);
+
+}
+.boton--ver:hover{
+    color: var(--negro);
+    background-color: var(--rojo);
+}
+.boton--roj{
+    color: var(--rojo);
+    background-color: var(--negro);
+
+}
+.boton--roj:hover{
+    color: var(--marron);
+    background-color: var(--rojo);
 }

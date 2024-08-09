@@ -13,9 +13,6 @@
 body{
     background-image: url(https://img.freepik.com/vector-premium/patrones-fisuras-kawaii-gatos-lindos-dibujos-animados-animales-fondo-ilustracion_107335-121.jpg);
 }
-.caja3{
-    background-color: var(--azul);
-}
 .com3{
     border-radius: 10px;
     box-shadow: 5px 10px #000;
@@ -28,4 +25,69 @@ body{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWri7LuVeY41rC5rkr1HGD1EbPzq4AOrmVKw&s);
     width: 10%;
     margin-right: 20px;
+}
+.caja0{
+    margin: 0 auto;
+    background-color:var(--azul);
+    border-radius: 12px;
+    width: 100%;
+    height: 85%;
+    margin-top: 40px;
+    box-shadow: 5px 5px #000;
+}
+.con.p.c{
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    
+}
+.p{
+    
+    margin: 0 auto;
+
+}
+.nombre{
+    
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+.nombre1{
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+.email{
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+.tel{
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+
+}
+.select{
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+.g1{
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+.boton{
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
 }
