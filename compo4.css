@@ -28,3 +28,107 @@ body{
     width: 10%;
     margin-right: 20px;
 }
+.caja0{
+    margin: 0 auto;
+    border-radius: 12px;
+    width: 100%;
+    height: 85%;
+    margin-top: 40px;
+    box-shadow: 5px 5px #000;
+}
+.caja0__textp{
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: var(--azul);
+    
+}
+.nombre{
+    
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+.nombre__text1{
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+.email{
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+.tel{
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+
+}
+.select{
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+.g1{
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+.boton{
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+.boton--beige{
+    background-color: var(--beige);
+}
+.boton--rosado{
+    background-color: var(--rosado);
+}
+
+.boton--piel{
+    background-color: var(--piel);
+}
+.boton--celeste{
+    background-color: var(--celeste);
+}
+.boton--verde{
+    background-color: var(--verde);
+}
+.boton--marron{
+    background-color: var(--marron);
+}
+.boton--rojoclarito{
+    background-color: var(--rojoclarito);
+}
+.img{
+    box-shadow: 5px 5px #000;
+    place-content: center;
+    padding: 20px;
+    width: 50%;
+    height: 45%;
+    border: 10px;
+    background-color: var(--piel);
+    border-radius: 10px;
+}
+.img__chiquita{
+    margin-right: 10px;
+    width: 50%;
+    border-radius: 7%;
+
+}
+.img__texto{
+    border-radius: 35%;
+}
+.img--beige:hover{
+    background-color: var(--beige);
+}

@@ -102,38 +102,38 @@ body{
    
 
 }
-.boton--neg{
+.boton--negro{
     color: var(--negro);
-    background-color: var(--morado);
+    background-color: var(--negro);
 }
-.boton--neg:hover{
+.boton--negro:hover{
     color: var(--rosado);
-    background-color: var(--negro);
+    background-color: var(--rojo);
 
 }
-.boton--ros{
+.boton--rosado{
     color: var(--morado);
-    background-color: var(--negro);
+    background-color: var(--rosado);
 }
-.boton--ros:hover{
+.boton--rosado:active{
     color: var(--negro);
     background-color: var(--morado);
 }
-.boton--ver{
-    color: var(--blanco);
-    background-color: var(--marron);
+.boton--verde{
+    color: var(--verde);
+    background-color: var(--verdeclarito);
 
 }
-.boton--ver:hover{
+.boton--verde:hover{
     color: var(--negro);
-    background-color: var(--rojo);
+    background-color: var(--naranja);
 }
-.boton--roj{
-    color: var(--rojo);
-    background-color: var(--negro);
+.boton--rojoclarito{
+    color: var(--negro);
+    background-color: var(--rojoclarito);
 
 }
-.boton--roj:hover{
-    color: var(--marron);
+.boton--rojoclarito:active{
+    color: var(--negro);
     background-color: var(--rojo);
 }
